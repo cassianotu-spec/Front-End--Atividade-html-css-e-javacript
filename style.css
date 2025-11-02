@@ -1,0 +1,27 @@
+
+body {
+  background: #f8f9fa;
+}
+
+.card { box-shadow: 0 2px 6px rgba(0,0,0,0.06); }
+
+.is-invalid { border-color: #dc3545 !important; box-shadow: none; }
+.invalid-feedback { display: block; }
+
+.list-group-item { margin-bottom: 8px; }
+
+
+@media (max-width: 576px) {
+  .navbar-brand { font-size: 0.95rem; }
+}
+
+.hero {
+  background: linear-gradient(135deg, rgba(2,6,23,0.92) 0%, rgba(3,10,34,0.7) 60%);
+  /* efeito de brilho sutil */
+  box-shadow: inset 0 2rem 4rem rgba(2,6,23,0.35);
+  border: 1px solid rgba(255,255,255,0.03);
+}
+.hero .btn-outline-light {
+  border-color: rgba(255,255,255,0.35);
+}
+
